@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planets | Space & Astronomy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Planets</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="planets.html">Planets</a></li>
+      <li><a href="galaxies.html">Galaxies</a></li>
+      <li><a href="stars.html">Stars</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <h2>Overview of the Planets</h2>
+  <p>Our solar system consists of eight major planets, each with unique characteristics:</p>
+  <div>
+    <p><strong>Mercury:</strong> The closest planet to the Sun.</p>
+    <p><strong>Venus:</strong> The hottest planet in our solar system.</p>
+    <p><strong>Earth:</strong> The only planet known to support life.</p>
+    <p><strong>Mars:</strong> The red planet, known for its surface features.</p>
+    <p><strong>Jupiter:</strong> The largest planet in our solar system.</p>
+    <p><strong>Saturn:</strong> Known for its beautiful rings.</p>
+    <p><strong>Uranus:</strong> The tilted planet with a unique rotation.</p>
+    <p><strong>Neptune:</strong> The farthest planet from the Sun.</p>
+  </div>
+  <div id="gallery">
+    <img id="galleryImage" src="planets.jpg" alt="Planet Image" class="responsive">
+  </div>
+  <button onclick="changeImage('earth.jpg')">Earth</button>
+  <button onclick="changeImage('mars.jpg')">Mars</button>
+  <button onclick="changeImage('jupiter.jpg')">Jupiter</button>
+  <p>Learn about the planets in our solar system!</p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
